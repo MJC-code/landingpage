@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    
+    border: solid red 1x;
+}
+
+body {font-family: Roboto, Arial, sans-serif;
+}
+
+.header-bar {
+    background-color: #1F2937;
+    justify-content: space-between;
+    display: flex;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+}
+
+li {
+    color: #F9FAF8;
+
+}
