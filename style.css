@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200,400;700;900&display=swap');
 /* 
 * {
     border: solid red 1px;
@@ -65,11 +65,13 @@ ul {
     padding-left: 24px;
     padding-right: 24px;
     flex-wrap: wrap;
+    margin-bottom: 48px;
+    justify-content: center;
 }
 
 .info-box {
     justify-content: center;
-    width: 200px;
+    width: 160px;
     padding: 12px;
     flex: 0 0 auto;
     text-align: center;
@@ -85,7 +87,15 @@ ul {
     flex: 0 0 auto;
 }
 
-
+.testimonial-container {
+    background-color: #E5E7EB;
+    padding: 64px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+    
+}
 
 
 a:link, a:visited, a:hover, a:active {
@@ -106,6 +116,13 @@ p {
     color: #E5E7EB;
 }
 
+.testimonial-container p {
+    font-size: 18px;
+    font-style: normal;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+}
 h2 {
     font-size: 36px;
     font-weight: 900;
