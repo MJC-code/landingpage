@@ -1,7 +1,5 @@
 
 
-* {   border: solid red 1px;
-}  
 body {
     font-family: Roboto, Arial, sans-serif;
     display: flex;
@@ -120,25 +118,48 @@ ul {
 }
 
 .call-to-action-container {
-    padding: 48px;
-    align-items: center;
+    display: flex;
+    margin: 64px 0px;
+    justify-content: center;
+    
 }
 
 .call-to-action-box {
     background-color: #3282F6;
     border-radius: 8px;
     display: flex;
+    width: 640px;
+    max-width: 720px;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 96px;
+ 
+}
 
+.call-to-action-box .button {
+    border-radius: 8px;
+    width: 128px;
+    background-color: #3882F6;
+    
+    border: solid white 3px;
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+    
 }
 
 .call-to-action-box h2 {
     color: #F9FAF8;
     text-align: left;
+    margin-bottom: 0px;
 
 }
 
 .call-to-action-box p {
     color: #F9FAF8;
+    margin-top: 0px;
+    
 }
 
 
@@ -152,12 +173,12 @@ a:link, a:visited, a:hover, a:active {
 h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FaF8
+    color: #F9FAF8;
 }
 
 p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 
