@@ -1,7 +1,7 @@
 
 
-/*    border: solid red 1px;
-}  */
+* {   border: solid red 1px;
+}  
 body {
     font-family: Roboto, Arial, sans-serif;
     display: flex;
@@ -118,6 +118,29 @@ ul {
     font-weight: 900;
     text-align: right;
 }
+
+.call-to-action-container {
+    padding: 48px;
+    align-items: center;
+}
+
+.call-to-action-box {
+    background-color: #3282F6;
+    border-radius: 8px;
+    display: flex;
+
+}
+
+.call-to-action-box h2 {
+    color: #F9FAF8;
+    text-align: left;
+
+}
+
+.call-to-action-box p {
+    color: #F9FAF8;
+}
+
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
